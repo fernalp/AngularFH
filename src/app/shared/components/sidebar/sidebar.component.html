@@ -1,0 +1,58 @@
+<h2 class="flex w-full text-3xl font-medium">Países</h2>
+<hr>
+
+<!-- <ul class="list-group">
+  <li class="list-group-item"> -->
+<ul class="group flex flex-col list-none my-2 border-2 rounded-xl border-stone-200 text-gray-900 bg-white font-medium">
+
+  <!-- <li routerLink="" routerLinkActive="bg-cyan-600 text-white" [routerLinkActiveOptions]="{exact: true}"
+    class="flex grow justify-center content-center no-underline hover:underline m-0 p-2 border-b rounded-t-xl hover:border-stone-300 hover:bg-cyan-600 hover:text-white">
+    Home Page
+  </li>
+  <li routerLink="about" routerLinkActive="bg-cyan-600 text-white" [routerLinkActiveOptions]="{exact: true}"
+    class="relative block no-underline hover:underline text-center m-0 p-2 border-b border-stone-200 hover:border-stone-300 hover:bg-cyan-600 hover:text-white">
+    About
+  </li>
+  <li routerLink="contact" routerLinkActive="bg-cyan-600 text-white" [routerLinkActiveOptions]="{exact: true}"
+    class="relative block no-underline hover:underline text-center p-2 border-b border-stone-200 hover:border-stone-300 hover:bg-cyan-600 hover:text-white">
+    Contact
+  </li> -->
+  <li routerLink="countries/by-capital" routerLinkActive="bg-cyan-600 text-white"
+    [routerLinkActiveOptions]="{exact: true}"
+    class="relative block no-underline hover:underline text-center p-2 rounded-t-xl border-b border-stone-200 hover:border-stone-300 hover:bg-cyan-600 hover:text-white">
+    Por Capital
+  </li>
+  <li routerLink="countries/by-country" routerLinkActive="bg-cyan-600 text-white"
+    [routerLinkActiveOptions]="{exact: true}"
+    class="relative block no-underline hover:underline text-center p-2 border-b border-stone-200 hover:border-stone-300 hover:bg-cyan-600 hover:text-white">
+    Por Pais
+  </li>
+  <li routerLink="countries/by-region" routerLinkActive="bg-cyan-600 text-white"
+    [routerLinkActiveOptions]="{exact: true}"
+    class="relative block no-underline hover:underline text-center p-2 rounded-b-xl hover:border-stone-300 hover:bg-cyan-600 hover:text-white">
+    Por Región
+  </li>
+</ul>
+
+<ul role="list"
+  class="flex flex-col list-none my-2 border-2 rounded-xl border-stone-200 text-gray-900 bg-white font-medium">
+  <shared-sidebar-item [items]="items">
+
+  </shared-sidebar-item>
+  <!-- <li *ngFor="let item of items;
+  let i = index;
+  let isFirst=first;
+  let isLast=first;
+  " [routerLink]="" routerLinkActive="bg-cyan-600 text-white" [routerLinkActiveOptions]="{exact: true}" class="
+  relative
+  block
+  text-center
+  no-underline
+  p-2
+  hover:underline
+  border-violet-500 hover:border-violet-600 hover:bg-violet-400 hover:text-white"
+    [ngClass]="{'rounded-t-xl': isFirst}">
+
+    {{item}}
+  </li> -->
+</ul>

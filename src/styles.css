@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+@layer base {
+  h1 {
+    @apply text-3xl font-semibold;
+  }
+
+  h2 {
+    @apply font-medium text-2xl;
+  }
+
+  h3 {
+    @apply text-lg font-medium;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply py-2
+  }
+}

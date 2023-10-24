@@ -1,0 +1,17 @@
+<li *ngFor="let item of items;
+  let isFirst = first;
+  let isLast = last;
+  " [routerLink]="item.link" routerLinkActive="bg-violet-700 text-white" [routerLinkActiveOptions]="{exact: true}"
+  class="
+  relative
+  block
+  text-center
+  no-underline
+  p-2
+  hover:underline
+  border
+  border-phlox hover:border-dazzlerose hover:bg-violet-600 hover:text-white"
+  [ngClass]="{'rounded-t-xl': isFirst, 'rounded-b-xl': isLast}">
+
+  {{item.label}}
+</li>
