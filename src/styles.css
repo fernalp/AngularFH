@@ -18,6 +18,11 @@
   h3 {
     @apply text-lg font-medium;
   }
+h1,
+h2,
+h3 {
+  @apply px-1 py-2
+}
 }
 
 @layer components {
